@@ -44,6 +44,7 @@
         android:layout_height="wrap_content"
         android:onClick="btnsum"
         android:text="SUM"
+        android:backgroundTint="@color/black"
         android:layout_below="@+id/tvResult"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
@@ -56,6 +57,7 @@
         android:layout_marginTop="16dp"
         android:onClick="btnsub"
         android:text="SUB"
+        android:backgroundTint="@color/black"
         android:layout_below="@+id/button"
         android:layout_centerHorizontal="true"
         />
@@ -67,6 +69,7 @@
         android:layout_marginTop="20dp"
         android:onClick="btnmulti"
         android:text="MULTI"
+        android:backgroundTint="@color/black"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/button2"/>
 
@@ -77,8 +80,17 @@
         android:layout_marginTop="12dp"
         android:onClick="btndiv"
         android:text="DIV"
+        android:backgroundTint="@color/black"
         android:layout_below="@+id/button3"
-        android:layout_centerHorizontal="true"
- />
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Developed By Vikas Mishra"
+        android:textColor="@color/black"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="20dp"/>
 
 </RelativeLayout>

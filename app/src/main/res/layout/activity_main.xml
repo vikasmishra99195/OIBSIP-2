@@ -40,10 +40,10 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:onClick="btnsum"
-        android:text="SUM"
+        android:text="Addition"
         android:backgroundTint="@color/black"
         android:layout_below="@+id/tvResult"
         android:layout_centerHorizontal="true"
@@ -52,11 +52,11 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
+        android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:onClick="btnsub"
-        android:text="SUB"
+        android:text="SUBTRACTION"
         android:backgroundTint="@color/black"
         android:layout_below="@+id/button"
         android:layout_centerHorizontal="true"
@@ -64,22 +64,22 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="wrap_content"
+        android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:onClick="btnmulti"
-        android:text="MULTI"
+        android:text="MULTIPLICATION"
         android:backgroundTint="@color/black"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/button2"/>
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="wrap_content"
+        android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:onClick="btndiv"
-        android:text="DIV"
+        android:text="DIVISION"
         android:backgroundTint="@color/black"
         android:layout_below="@+id/button3"
         android:layout_centerHorizontal="true" />
